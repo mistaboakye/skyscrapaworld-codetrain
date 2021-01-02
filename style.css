@@ -1,0 +1,222 @@
+/* auxilliaries */
+/* @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+body {
+  background-color: #020202;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  color: white;
+}
+h4 {
+  letter-spacing: 5px;
+  word-spacing: 5px;
+  line-height: 1.5em;
+  text-indent: 0px;
+}
+button {
+  background-color: transparent;
+  color: whitesmoke;
+  border: whitesmoke solid 2px;
+  margin-left: 15px;
+  padding: 30px;
+  border-radius: 10px;
+}
+button:hover {
+  background: white;
+  color: black;
+}
+button:focus {
+  border: none;
+}
+button:active {
+  border: none;
+}
+.fa-ticktok {
+  color: rgb(59, 91, 152);
+  font-size: 48px;
+  color: red;
+}
+.active {
+  text-decoration: underline;
+}
+.active .index {
+  text-decoration: none;
+}
+/* nav-bar */
+.nav_icons {
+  background: none;
+  color: white;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+.nav_flex {
+  display: flex;
+  /* margin: 10px;
+  font-size: 18px; */
+  text-decoration: none;
+  justify-content: space-between;
+  min-width: 100%;
+  position: fixed;
+  top: 10;
+  background-color: rgba(14, 1, 1, 0.8);
+  z-index: 1;
+}
+
+.nav_flex > a {
+  display: flex;
+  color: whitesmoke;
+  padding: 10px;
+  margin: 20px;
+}
+.nav_flex a:hover {
+  color: gray;
+  text-decoration: none;
+}
+.nav_flex .index {
+  color: whitesmoke;
+  line-height: 25px;
+  font-size: 40px;
+  text-decoration: none;
+  text-shadow: 1px 5px 4px red;
+}
+/* HOME section */
+.music {
+  background: url(./images/music/2DB_coverart1.jpg);
+  display: flex;
+  align-items: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 130vh;
+  background-size: cover;
+  justify-content: center;
+}
+.music h1 {
+  display: flex;
+  color: yellow;
+  justify-items: center;
+  border: solid black 5px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.bio_row {
+  border: solid 5px rgb(148, 148, 148);
+  margin: 20px;
+  padding: 10px;
+}
+.graffiti {
+  border: solid 5px rgb(148, 148, 148);
+  padding: 10px;
+}
+.button_flex {
+  display: flex;
+  justify-content: center;
+  background-color: red;
+}
+
+/* .bio .a img: {
+  background-blend-mode: overlay;
+  background-color: rgba(192, 192, 192, 0.5);
+} */
+
+/* Bio section */
+.bio_header {
+  background: url(./images/bio/bio_image.jpg);
+  display: flex;
+  align-items: center;
+  background-attachment: inherit;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-size: cover;
+  justify-content: center;
+}
+.bio_flex div {
+  padding: 50px;
+  font-size: 30px;
+  line-height: 1.8em;
+}
+
+/* MUSIC section */
+.music_header {
+  background: url(./images/graffiti/skyper1.jpg);
+  display: flex;
+  align-items: center;
+  background-attachment: inherit;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-size: cover;
+  justify-content: center;
+}
+
+.music_flex div {
+  padding: 50px;
+}
+
+/* videos section */
+.videos_header {
+  background: url(./images/graffiti/skyper.jpg);
+  display: flex;
+  align-items: center;
+  background-attachment: inherit;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-size: cover;
+  justify-content: center;
+}
+
+.video_flex div {
+  padding: 30px;
+}
+/* graffiti section */
+.graffiti_header {
+  background: url(./images/graffiti/Scrapa\ in\ mask.jpg);
+  display: flex;
+  align-items: center;
+  background-attachment: inherit;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-size: cover;
+  justify-content: center;
+}
+/* Footer */
+.flex-footer {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-container {
+  background-color: transparent;
+  margin-top: 2rem;
+}
+.footer-txt {
+  color: white;
+  margin: 1em;
+  padding-left: 12em;
+}
+.social ul {
+  padding-left: 55%;
+  display: flex;
+}
+.social ul > li {
+  list-style: none;
+  flex-direction: column;
+  padding: 10px 15px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.social ul > li > a {
+  color: white;
+}
+
+.social ul > li > a:hover {
+  color: #fff;
+}
